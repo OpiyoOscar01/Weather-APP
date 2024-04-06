@@ -1,0 +1,118 @@
+/* Set the font family and background color for the entire page */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: aliceblue; */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url(weather.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;  /* Center the background image */
+    background-attachment: fixed;  /* Fix the background image to prevent scrolling */
+    z-index: -1; 
+}
+
+/* Add some margin to the weather form container */
+.weatherForm {
+    margin: 20px;
+}
+
+/* Style the city input field */
+.cityInput {
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 2px solid rgba(0, 0, 0, 0.233);
+    border-radius: 10px;
+    margin: 10px;
+    width: 800px; /* Increased width to 800px */
+    background-color: rgb(147, 205, 239);
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    background-color: hsl(120, 70%, 52%);
+    border-radius: 5px;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+}
+
+/* Change button color on hover */
+button[type="submit"]:hover {
+    background-color: hsla(120, 92%, 32%, 0.898);
+}
+
+/* Style the card container */
+.card {
+    background: linear-gradient(180deg, rgb(63, 155, 230), rgba(231, 170, 56, 0.899));
+    padding: 20px;
+    margin-top: 5px;
+    box-shadow: 8px 8px 6px rgba(0, 0, 0, 0.781);
+    min-width: 400px;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color:black;
+font-weight: bolder;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    color:whitesmoke;
+    background-color: rgb(116, 178, 211);
+    border: none;
+    border-radius: 10px;
+    
+
+}
+
+h1{
+    color: white;
+}
+
+
+p {
+    font-size: 1.5em;
+    padding: 0;
+    margin: 5px 0;
+}
+
+.cityDisplay,
+.tempDisplay {
+    font-size: 2em;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.humidityDisplay {
+    font-weight: bold;
+    margin: 2px;
+}
+
+.descDisplay {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.weatherEmoji {
+    font-size: 5rem;
+    /* color: white; */
+}
+
+.errorDisplay {
+    font-size: 2em;
+    color: rgba(0, 0, 0, 0.764);
+}
