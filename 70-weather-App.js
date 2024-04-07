@@ -38,7 +38,7 @@ const response=await fetch(apiURL);
 
 // console.log(response);
 if(!response.ok){
-    throw new Error("Oops! Unable to fetch weather data! Enter the correct City Name and Try again!");
+    throw new Error("Oops! Unable to fetch weather data! Enter the correct place name & Try again!");
 }
 
 return await response.json();
