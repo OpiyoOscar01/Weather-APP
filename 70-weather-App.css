@@ -116,3 +116,32 @@ p {
     font-size: 2em;
     color: rgba(0, 0, 0, 0.764);
 }
+
+
+/*Responsive design*/
+/* Extra Small (XS) */
+@media (max-width: 576px) {
+    /* CSS styles for Extra Small screens */
+  }
+  
+  /* Small (S) */
+  @media (min-width: 576px) and (max-width: 767px) {
+    /* CSS styles for Small screens */
+  }
+  
+  /* Medium (M) */
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* CSS styles for Medium screens */
+  }
+  
+  /* Large (L) */
+  @media (min-width: 992px) and (max-width: 1199px) {
+    /* CSS styles for Large screens */
+  }
+  
+  /* Extra Large (XL) */
+  @media (min-width: 1200px) {
+    /* CSS styles for Extra Large screens */
+  }
+  
+  
